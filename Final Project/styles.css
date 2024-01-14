@@ -1,0 +1,224 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    background-image: url('images/background_image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: black;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3367d6;
+}
+
+.buttons-container {
+    text-align: center;
+}
+
+.background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+    z-index: -1;
+}
+
+.logout-container {
+    text-align: left;
+}
+
+.logout-container a {
+    text-align: left;
+    color: white;
+}
+
+/* Additional styles for the event list page */
+h2 {
+    color: #4285f4;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+strong {
+    color: #4285f4;
+}
+
+button {
+    display: inline-block;
+    padding: 5px 10px; /* Adjust padding to change button size */
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3367d6;
+}
+
+/* Additional styles for the event details page */
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: black;
+}
+
+/* Adjustments for button in the event details page */
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+/* Styles for Login and Signup Form Containers */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+/* Additional styles for the login page form container */
+body.login-page .form-container {
+    max-width: 300px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+body.login-page .form-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+body.login-page .form-container label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+body.login-page .form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+body.login-page .form-container input[type="submit"] {
+    background-color: #4285f4;
+    color: white;
+    cursor: pointer;
+}
+
+body.login-page .form-container input[type="submit"]:hover {
+    background-color: #3367d6;
+}
+
+/* Additional styles for the signup page form container */
+body.signup-page .form-container {
+    max-width: 300px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+body.signup-page .form-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+body.signup-page .form-container label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+body.signup-page .form-container input {
+    
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+body.signup-page .form-container input[type="submit"] {
+    background-color: #4285f4;
+    color: white;
+    cursor: pointer;
+}
+
+body.signup-page .form-container input[type="submit"]:hover {
+    background-color: #3367d6;
+}
